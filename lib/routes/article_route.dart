@@ -184,11 +184,12 @@ class _ArticleRouteState extends State<ArticleRoute> {
         color: Colors.white,
         child: ListView.builder(
           itemCount: relations.length,
+          padding: EdgeInsets.only(top: 10.0, bottom: 50.0),
           itemBuilder: (context, index) {
             return Card(
               elevation: 5.0,
               color: Colors.white,
-              margin: const EdgeInsets.all(20.0),
+              margin: const EdgeInsets.only(top: 10.0, left: 20.0, right: 20.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
