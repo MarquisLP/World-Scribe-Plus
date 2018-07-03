@@ -8,10 +8,10 @@ void main() => runApp(new MyApp());
 List<Relation> getMockRelations() {
   return <Relation>[
     new Relation(
-      otherArticleName: 'Terra Branford',
-      title: 'Ally',
-      description: 'A fellow warrior for The Returners. Both Terra and Celes have been abused in Magicite experiments, and both have been called \'Witches\' as a result, so the two share a great deal of empathy for one another.',
-      image: AssetImage('assets/TerraBranford.jpg'),
+      otherArticleName: 'Locke Cole',
+      title: 'Ally, Love Interest',
+      description: 'Celes\' main point of contact with The Returners. Locke rescued Celes just before she was executed by the Gestahlian Empire and converted her over to The Returners\' side.',
+      image: AssetImage('assets/LockeCole.jpg'),
     ),
     new Relation(
       otherArticleName: 'Terra Branford',
@@ -20,10 +20,10 @@ List<Relation> getMockRelations() {
       image: AssetImage('assets/TerraBranford.jpg'),
     ),
     new Relation(
-      otherArticleName: 'Terra Branford',
-      title: 'Ally',
-      description: 'A fellow warrior for The Returners. Both Terra and Celes have been abused in Magicite experiments, and both have been called \'Witches\' as a result, so the two share a great deal of empathy for one another.',
-      image: AssetImage('assets/TerraBranford.jpg'),
+      otherArticleName: 'Maria',
+      title: 'Lookalike',
+      description: 'An opera starlet who bears a striking resemblance to Celes. Thanks to this, Celes was able to impersonate her during The Returners\' "Opera Scheme" to draw out Setzer.',
+      image: AssetImage('assets/CelesChere.jpg'),
     ),
   ];
 }
